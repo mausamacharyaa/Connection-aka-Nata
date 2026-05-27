@@ -47,6 +47,9 @@ class Homepage extends StatelessWidget {
       ),
     ]
   ),
+
+  body: Container(),
   );
   }
 }
+
