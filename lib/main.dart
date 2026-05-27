@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:nata_app/Pages/homepage.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+class Connect extends StatelessWidget {
+  const Connect({super.key});
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return Placeholder();}
+    return const Homepage();
+  }
+}
